@@ -145,6 +145,10 @@ Various capabilities are available for information and Flow control:
 ----------------------------------------
 
 # History
+
+### 2.0.2
+  * Hotfix for unauthorized errors.
+
 ### 2.0.0
   * New: Smart AC Control. (under development)
   * New: Home device. This device contains all capabilities that relate to the entire tado°-home.
