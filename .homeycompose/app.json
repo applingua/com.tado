@@ -2,10 +2,12 @@
   "id": "com.tado",
   "sdk": 2,
   "name": {
-    "en": "tado°"
+    "en": "tado°",
+	"de": "tado°"
   },
   "description": {
-    "en": "Adds support for tado°"
+    "en": "Adds support for tado°",
+	"de": "Fügt Support für tado° hinzu"
   },
   "tags": {
     "en": [
@@ -26,6 +28,15 @@
       "air conditioning",
       "airco",
       "aanwezigheid"
+    ],
+    "de": [
+      "tado",
+      "Thermostat",
+      "Heizungsthermostat",
+      "Heizung",
+      "Warmwasser",
+      "Klimaanlage",
+      "Anwesenheit"
     ]
   },
   "category": "climate",

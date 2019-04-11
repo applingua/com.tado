@@ -1,0 +1,53 @@
+{
+  "tado_user": "Benutzername für my.tado.com",
+  "tado_password": "Passwort",
+
+  "Home": "Home",
+
+  "sun": "Sunny",
+  "cloudy_partly": "Teilweise bewölkt",
+  "cloudy_mostly": "Größtenteils bewölkt",
+  "cloudy": "Cloudy",
+  "foggy": "Foggy",
+  "drizzle": "Drizzle",
+  "scattered_rain": "Vereinzelt Regen",
+  "rain": "Rain",
+  "rain_hail": "Regen,/ Hagel",
+  "hail": "Hail",
+  "scattered_rain_snow": "Vereinzelt Regen, Schnee",
+  "rain_snow": "Regen, Schnee",
+  "scattered_snow": "Vereinzelt Schnee",
+  "snow": "Schnee",
+  "freezing": "Frost",
+  "night_clear": "Klare Nacht",
+  "night_cloudy": "Wolkige Nacht",
+  "thunderstorm": "Gewitter",
+  "windy": "Windig",
+
+  "On": "An",
+  "Off": "Aus",
+  "Auto": "Auto",
+  "Cool": "Kühlen",
+  "Heat": "Heizen",
+  "Dry": "Trocknen",
+  "Fan": "Ventilator",
+  "manual": "manuell",
+  "until_schedule": "bis Zeitplan",
+
+  "Thermostat" : "Thermostat",
+  "Therm" : "Therm",
+  "Valve": "Ventil",
+  "Valves": "Ventile",
+  "Both": "Beides",
+  "All": "Alle",
+  "and": "und",
+
+  "degrees": "Grad",
+
+  "Location-based control": "Standort-basierte Steuerung",
+  "At Home": "Zuhause",
+  "relative": "relativ",
+  "Distance": "Entfernung",
+  "from": "von",
+  "Home Area": "Home Area"
+}

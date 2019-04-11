@@ -4,11 +4,13 @@
 			"id": "target_onoff",
 			"title": {
 				"en": "Hot water is switched on or off",
-				"nl": "Warm water wordt ingeschakeld of uitgeschakeld"
+				"nl": "Warm water wordt ingeschakeld of uitgeschakeld",
+				"de": "Warmwasser wird ein- oder ausgeschaltet"
 			},
 			"hint": {
 				"en": "This card starts a Flow when the Hot water zone is switched on or off.",
-				"nl": "Dit kaartje start een Flow wanneer de Warm water zone wordt ingeschakeld of uitgeschakeld."
+				"nl": "Dit kaartje start een Flow wanneer de Warm water zone wordt ingeschakeld of uitgeschakeld.",
+				"de": "Diese Karte startet einen Flow, wenn das Warmwasser ein- oder ausgeschaltet wird."
 			},
 			"tokens": [
 				{
@@ -16,7 +18,8 @@
 					"type": "boolean",
 					"title": {
 						"en": "switched on (true or false)",
-						"nl": "ingeschakeld (waar of niet waar)"
+						"nl": "ingeschakeld (waar of niet waar)",
+						"de": "eingeschaltet (true oder false)"
 					}
 				}
 			],
@@ -26,11 +29,13 @@
 			"id": "inside_temperature",
 			"title": {
 				"en": "Temperature changes",
-				"nl": "Temperatuur verandert"
+				"nl": "Temperatuur verandert",
+				"de": "Temperatur ändert sich"
 			},
 			"hint": {
 				"en": "This card starts a Flow when a change in temperature is observed.",
-				"nl": "Dit kaartje start een Flow wanneer een verandering van de temperatuur wordt waargenomen."
+				"nl": "Dit kaartje start een Flow wanneer een verandering van de temperatuur wordt waargenomen.",
+				"de": "Diese Karte startet einen Flow, wenn eine Temperaturänderung erkannt wird."
 			},
 			"tokens": [
 				{
@@ -38,7 +43,8 @@
 					"type": "number",
 					"title": {
 						"en": "temperature",
-						"nl": "temperatuur"
+						"nl": "temperatuur",
+						"de": "Temperatur"
 					},
 					"example": 18
 				}
@@ -49,11 +55,13 @@
 			"id": "humidity",
 			"title": {
 				"en": "Humidity changes",
-				"nl": "Luchtvochtigheid verandert"
+				"nl": "Luchtvochtigheid verandert",
+				"de": "Luftfeuchtigkeit ändert sich"
 			},
 			"hint": {
 				"en": "This card starts a Flow when a change in humidity is observed.",
-				"nl": "Dit kaartje start een Flow wanneer een verandering van de luchtvochtigheid wordt waargenomen."
+				"nl": "Dit kaartje start een Flow wanneer een verandering van de luchtvochtigheid wordt waargenomen.",
+				"de": "Diese Karte startet einen Flow, wenn Änderung der Luftfeuchtigkeit erkannt wird."
 			},
 			"tokens": [
 				{
@@ -61,7 +69,8 @@
 					"type": "number",
 					"title": {
 						"en": "humidity (%)",
-						"nl": "luchtvochtigheid (%)"
+						"nl": "luchtvochtigheid (%)",
+						"de": "Luftfeuchtigkeit (%)"
 					},
 					"example": 37
 				}
@@ -72,11 +81,13 @@
 			"id": "heating_power",
 			"title": {
 				"en": "Heating capacity changes",
-				"nl": "Verwarmingscapaciteit verandert"
+				"nl": "Verwarmingscapaciteit verandert",
+				"de": "Heizkapazität ändert sich"
 			},
 			"hint": {
 				"en": "This card starts a Flow when a change in heating capacity is observed.",
-				"nl": "Dit kaartje start een Flow wanneer een verandering van de verwarmingscapaciteit wordt waargenomen."
+				"nl": "Dit kaartje start een Flow wanneer een verandering van de verwarmingscapaciteit wordt waargenomen.",
+				"de": "Diese Karte startet einen Flow, wenn eine Änderung der Heizkapazität erkannt wird."
 			},
 			"tokens": [
 				{
@@ -84,7 +95,8 @@
 					"type": "number",
 					"title": {
 						"en": "capacity (%)",
-						"nl": "capaciteit (%)"
+						"nl": "capaciteit (%)",
+						"de": "Kapazität (%)"
 					},
 					"example": 45
 				}
@@ -95,11 +107,13 @@
 			"id": "detect_open_window",
 			"title": {
 				"en": "Open Window Detection changes",
-				"nl": "Open Raam Detectie verandert"
+				"nl": "Open Raam Detectie verandert",
+				"de": "Offenes-Fenster-Erkennung ändert sich"
 			},
 			"hint": {
 				"en": "This card starts a Flow when the status of the Open Window Detection changes.",
-				"nl": "Dit kaartje start een Flow wanneer de toestand van de Open Raam Detectie verandert."
+				"nl": "Dit kaartje start een Flow wanneer de toestand van de Open Raam Detectie verandert.",
+				"de": "Diese Karte startet einen Flow, wenn sich der Status der Offenes-Fenster-Erkennung ändert."
 			},
 			"tokens": [
 				{
@@ -107,7 +121,8 @@
 					"type": "boolean",
 					"title": {
 						"en": "active (true or false)",
-						"nl": "actief (waar of niet waar)"
+						"nl": "actief (waar of niet waar)",
+						"de": "aktiv (true oder false)"
 					}
 				}
 			],
@@ -117,11 +132,13 @@
 			"id": "ac_mode_changed",
 			"title": {
 				"en": "Air Conditioning mode changes to...",
-				"nl": "Airco modus verandert naar..."
+				"nl": "Airco modus verandert naar...",
+				"de": "Klimaanlagen-Status ändert sich auf..."
 			},
 			"hint": {
 				"en": "This card starts a Flow when the AC Controller switches to the selected mode.",
-				"nl": "Dit kaartje start een Flow wanneer de AC Controller naar de ingestelde modus schakelt."
+				"nl": "Dit kaartje start een Flow wanneer de AC Controller naar de ingestelde modus schakelt.",
+				"de": "Diese Karte startet einen Flow, wenn die Klimaanlage in den gewählten Modus wechselt."
 			},
 			"tokens": [],
 			"$filter": "capabilities=airco_mode",
@@ -131,7 +148,8 @@
 					"name": "current_mode",
 					"placeholder": {
 						"en": "Air conditioning mode",
-						"nl": "Airco modus"
+						"nl": "Airco modus",
+						"de": "Klimaanlagen-Modus"
 					}
 				}
 			]
@@ -140,11 +158,13 @@
 			"id": "smart_heating",
 			"title": {
 				"en": "Smart Schedule status changes",
-				"nl": "Slimme Schema toestand verandert"
+				"nl": "Slimme Schema toestand verandert",
+				"de": "Statusänderung von intelligentem Zeitplan"
 			},
 			"hint": {
 				"en": "This card starts a Flow when the status of the Smart Schedule changes.",
-				"nl": "Dit kaartje start een Flow wanneer de toestand van het Slimme Schema verandert."
+				"nl": "Dit kaartje start een Flow wanneer de toestand van het Slimme Schema verandert.",
+				"de": "Diese Karte startet einen Flow, wenn sich der Status des intelligenten Zeitplans ändert."
 			},
 			"tokens": [
 				{
@@ -152,7 +172,8 @@
 					"type": "boolean",
 					"title": {
 						"en": "active (true or false)",
-						"nl": "actief (waar of niet waar)"
+						"nl": "actief (waar of niet waar)",
+						"de": "aktiv (true oder false)"
 					}
 				}
 			],
@@ -162,11 +183,13 @@
 			"id": "battery_state_changed",
 			"title": {
 				"en": "Battery status changes",
-				"nl": "Batterij toestand verandert"
+				"nl": "Batterij toestand verandert",
+				"de": "Akkuzustand ändert sich"
 			},
 			"hint": {
 				"en": "This card starts a Flow when a change in the Battery State is observed.",
-				"nl": "Dit kaartje start een Flow wanneer een verandering van de Batterij toestand wordt waargenomen."
+				"nl": "Dit kaartje start een Flow wanneer een verandering van de Batterij toestand wordt waargenomen.",
+				"de": "Diese Karte startet einen Flow, wenn eine Änderung um Akkuzustand erkannt wird."
 			},
 			"tokens": [
 				{
@@ -174,27 +197,32 @@
 					"type": "boolean",
 					"title": {
 						"en": "ok (true or false)",
-						"nl": "ok (waar of niet waar)"
+						"nl": "ok (waar of niet waar)",
+						"de": "ok (true oder false)"
 					}
 				},
 				{
 					"name": "isOk",
 					"title": {
 						"en": "good (serial numbers)",
-						"nl": "goed (serienummers)"
+						"nl": "goed (serienummers)",
+						"de": "gut (Seriennummern)"
 					},
 					"example": {
-						"en": "RU0123012301 VA1234123412 and VA2345234523"
+						"en": "RU0123012301 VA1234123412 and VA2345234523",
+						"de": "RU0123012301 VA1234123412 und VA2345234523"
 					}
 				},
 				{
 					"name": "isNotOk",
 					"title": {
 						"en": "low (serial numbers)",
-						"nl": "laag (serienummers)"
+						"nl": "laag (serienummers)",
+						"de": "niedrig (Seriennummern)"
 					},
 					"example": {
-						"en": "RU0123012301 VA1234123412 and VA2345234523"
+						"en": "RU0123012301 VA1234123412 and VA2345234523",
+						"de": "RU0123012301 VA1234123412 und VA2345234523"
 					}
 				}
 			],
@@ -204,11 +232,13 @@
 			"id": "presence_status",
 			"title": {
 				"en": "General Home/Away status changes",
-				"nl": "Algemene Thuis/Afwezig status verandert"
+				"nl": "Algemene Thuis/Afwezig status verandert",
+				"de": "Allgemeiner Zuhause/Weg-Status ändert sich"
 			},
 			"hint": {
 				"en": "This card starts a Flow when the general tado° Home/Away status changes.",
-				"nl": "Dit kaartje start een Flow wanneer de algemene tado° Thuis/Afwezig status verandert."
+				"nl": "Dit kaartje start een Flow wanneer de algemene tado° Thuis/Afwezig status verandert.",
+				"de": "Diese Karte startet einen Flow, wenn sich der allgemeine tado°-Zuhause/Weg-Status ändert."
 			},
 			"tokens": [
 				{
@@ -216,7 +246,8 @@
 					"type": "boolean",
 					"title": {
 						"en": "somebody is at home (true or false)",
-						"nl": "iemand is thuis (waar of niet waar)"
+						"nl": "iemand is thuis (waar of niet waar)",
+						"de": "jemand ist zuhause (true oder false)"
 					}
 				}
 			],
@@ -226,11 +257,13 @@
 			"id": "mobile_athome_changed",
 			"title": {
 				"en": "Mobile Home/Away status changes",
-				"nl": "Mobiele Thuis/Afwezig status verandert"
+				"nl": "Mobiele Thuis/Afwezig status verandert",
+				"de": "Mobiler Zuhause/Weg-Status ändert sich"
 			},
 			"hint": {
 				"en": "This card starts a Flow when the Home/Away status for a mobile device changes.",
-				"nl": "Dit kaartje start een Flow wanneer de Thuis/Afwezig status voor een mobiel apparaat verandert."
+				"nl": "Dit kaartje start een Flow wanneer de Thuis/Afwezig status voor een mobiel apparaat verandert.",
+				"de": "Diese Karte startet einen Flow, wenn sich der Zuhause/Weg-Status für mobile Geräte ändert."
 			},
 			"tokens": [
 				{
@@ -238,7 +271,8 @@
 					"type": "boolean",
 					"title": {
 						"en": "at home (true or false)",
-						"nl": "thuis (waar of niet waar)"
+						"nl": "thuis (waar of niet waar)",
+						"de": "zuhause (true oder false)"
 					}
 				}
 			],
@@ -249,7 +283,8 @@
 					"name": "mobile_device_selection",
 					"placeholder": {
 						"en": "Mobile device",
-						"nl": "Mobiel apparaat"
+						"nl": "Mobiel apparaat",
+						"de": "Mobilgerät"
 					}
 				}
 			]
@@ -258,11 +293,13 @@
 			"id": "mobile_tracking_changed",
 			"title": {
 				"en": "Location-based control changes",
-				"nl": "Locatiegebaseerde controle verandert"
+				"nl": "Locatiegebaseerde controle verandert",
+				"de": "Standort-basierte Kontrolle ändert sich"
 			},
 			"hint": {
 				"en": "This card starts a Flow when a change for the Location-based control of a mobile device is detected.",
-				"nl": "Dit kaartje start een Flow wanneer een verandering voor de Locatiegebaseerde controle van een mobiel apparaat wordt waargenomen."
+				"nl": "Dit kaartje start een Flow wanneer een verandering voor de Locatiegebaseerde controle van een mobiel apparaat wordt waargenomen.",
+				"de": "Diese Karte startet einen Flow, wenn eine Änderung in der Standort-basierten Kontrolle eines Mobilgerätes erkannt wird."
 			},
 			"tokens": [
 				{
@@ -270,7 +307,8 @@
 					"type": "boolean",
 					"title": {
 						"en": "location-based control enabled (true or false)",
-						"nl": "locatiegebaseerde controle ingeschakeld (waar of niet waar)"
+						"nl": "locatiegebaseerde controle ingeschakeld (waar of niet waar)",
+						"de": "Standort-basierte Kontrolle aktiviert (true oder false)"
 					}
 				}
 			],
@@ -281,7 +319,8 @@
 					"name": "mobile_device_selection",
 					"placeholder": {
 						"en": "Mobile device",
-						"nl": "Mobiel apparaat"
+						"nl": "Mobiel apparaat",
+						"de": "Mobilgerät"
 					}
 				}
 			]
@@ -290,11 +329,13 @@
 			"id": "mobile_distance_changed",
 			"title": {
 				"en": "Distance changes",
-				"nl": "Afstand verandert"
+				"nl": "Afstand verandert",
+				"de": "Distanz ändert sich"
 			},
 			"hint": {
 				"en": "This card starts a Flow when the distance between a mobile device and the Home Area changes. Relative distance token: 0.2 ≈ 225 meters from Home Area, 0.3 ≈ 785 m, 0.4 ≈ 2.7 km, 0.5 ≈ 9.2 km, 0.6 ≈ 32 km, 0.7 ≈ 110 km, 0.8 ≈ 375 km, 0.9 ≈ 1300 km",
-				"nl": "Dit kaartje start een Flow wanneer de afstand tussen een mobiel apparaat en het Woongebied verandert. Relatieve afstand token: 0.2 ≈ 225 meter van Woongebied, 0.3 ≈ 785 m, 0.4 ≈ 2.7 km, 0.5 ≈ 9.2 km, 0.6 ≈ 32 km, 0.7 ≈ 110 km, 0.8 ≈ 375 km, 0.9 ≈ 1300 km"
+				"nl": "Dit kaartje start een Flow wanneer de afstand tussen een mobiel apparaat en het Woongebied verandert. Relatieve afstand token: 0.2 ≈ 225 meter van Woongebied, 0.3 ≈ 785 m, 0.4 ≈ 2.7 km, 0.5 ≈ 9.2 km, 0.6 ≈ 32 km, 0.7 ≈ 110 km, 0.8 ≈ 375 km, 0.9 ≈ 1300 km",
+				"de": "Diese Karte startet einen Flow, wenn sich die Distanz zwischen einem Mobilgerät und dem Heimbereich ändert. Relative Distanzmarker: 0.2 ≈ 225 Meter von Heimbereich, 0.3 ≈ 785 m, 0.4 ≈ 2.7 km, 0.5 ≈ 9.2 km, 0.6 ≈ 32 km, 0.7 ≈ 110 km, 0.8 ≈ 375 km, 0.9 ≈ 1300 km"
 			},
 			"tokens": [
 				{
@@ -302,7 +343,8 @@
 					"type": "number",
 					"title": {
 						"en": "kilometers from Home Area (0 - 4000 km)",
-						"nl": "kilometers van Woongebied (0 - 4000 km)"
+						"nl": "kilometers van Woongebied (0 - 4000 km)",
+						"de": "Kilometer von Heimbereich (0 - 4000 km)"
 					},
 					"example": 9.5
 				},
@@ -311,7 +353,8 @@
 					"type": "number",
 					"title": {
 						"en": "miles from Home Area (0 - 2500 mi)",
-						"nl": "mijlen van Woongebied (0 - 2500 mi)"
+						"nl": "mijlen van Woongebied (0 - 2500 mi)",
+						"de": "Meilen von Heimbereich (0 - 2500 mi)"
 					},
 					"example": 6
 				},
@@ -320,7 +363,8 @@
 					"type": "number",
 					"title": {
 						"en": "relative distance from Home Area (0 - 1)",
-						"nl": "relatieve afstand van Woongebied (0 - 1)"
+						"nl": "relatieve afstand van Woongebied (0 - 1)",
+						"de": "Relative Distanz von Heimbereich (0 - 1)"
 					},
 					"example": 0.5
 				}
@@ -332,7 +376,8 @@
 					"name": "mobile_device_selection",
 					"placeholder": {
 						"en": "Mobile device",
-						"nl": "Mobiel apparaat"
+						"nl": "Mobiel apparaat",
+						"de": "Mobilgerät"
 					}
 				}
 			]
@@ -341,11 +386,13 @@
 			"id": "mobile_time_since_location",
 			"title": {
 				"en": "Timer expires since last location update",
-				"nl": "Timer loopt af sinds laatste locatie update"
+				"nl": "Timer loopt af sinds laatste locatie update",
+				"de": "Timer seit letztem Standort-Update läuft ab"
 			},
 			"hint": {
 				"en": "This card starts a Flow when the set time expires after the last location update of the chosen mobile device. You can set whether the trigger should activate once or repeatedly until the device gives a location update. It is normal when a device does not update a location for a while because, for example, it does not sufficiently change position or temporarily has no connection. Keep this in mind when using this trigger for alerts.",
-				"nl": "Dit kaartje start een Flow wanneer de ingestelde tijd is verlopen na de laatste locatie-update van het gekozen mobiele apparaat. Je kan instellen of de trigger eenmalig of herhaald moet activeren totdat het apparaat een locatie update geeft. Het is normaal wanneer een apparaat een tijdje geen locatie update geeft omdat het bijvoorbeeld niet voldoende van positie verandert of tijdelijk geen verbinding heeft. Denk hier aan bij het gebruik van deze trigger voor waarschuwingen."
+				"nl": "Dit kaartje start een Flow wanneer de ingestelde tijd is verlopen na de laatste locatie-update van het gekozen mobiele apparaat. Je kan instellen of de trigger eenmalig of herhaald moet activeren totdat het apparaat een locatie update geeft. Het is normaal wanneer een apparaat een tijdje geen locatie update geeft omdat het bijvoorbeeld niet voldoende van positie verandert of tijdelijk geen verbinding heeft. Denk hier aan bij het gebruik van deze trigger voor waarschuwingen.",
+				"de": "Diese Karte startet einen Flow, wenn der Timer nach dem letzten Standort-Update des gewählten Mobilgerätes abläuft. Du kannst ändern, ob der Trigger nur einmal oder wiederholt ausgelöst wird, bis das Gerät ein Standort-Update sendet. Es ist normal, dass ein Gerät für eine Weile kein Standort-Update sendet, wenn es zum Beispiel kaum die Position ändert oder keinen Empfang hat. Behalte das im Hinterkopf, wenn du diesen Trigger für Warnungen benutzt."
 			},
 			"tokens": [
 				{
@@ -353,7 +400,8 @@
 					"type": "number",
 					"title": {
 						"en": "minutes (updated at repeat)",
-						"nl": "minuten (bijgewerkt bij herhaling)"
+						"nl": "minuten (bijgewerkt bij herhaling)",
+						"de": "Minuten (bei Wiederholung aktualisiert)"
 					},
 					"example": 5
 				}
@@ -365,7 +413,8 @@
 					"name": "mobile_device_selection",
 					"placeholder": {
 						"en": "Mobile device",
-						"nl": "Mobiel apparaat"
+						"nl": "Mobiel apparaat",
+						"de": "Mobilgerät"
 					}
 				},
 				{
@@ -373,7 +422,8 @@
 					"type": "time",
 					"placeholder": {
 						"en": "No update since...",
-						"nl": "Geen update sinds..."
+						"nl": "Geen update sinds...",
+						"de": "Kein Update seit..."
 					}
 				},
 				{
@@ -384,42 +434,48 @@
 							"id": "0",
 							"label": {
 								"en": "Once",
-								"nl": "Eenmaal"
+								"nl": "Eenmaal",
+								"de": "Einmal"
 							}
 						},
 						{
 							"id": "1",
 							"label": {
 								"en": "Repeat every minute",
-								"nl": "Iedere minuut herhalen"
+								"nl": "Iedere minuut herhalen",
+								"de": "Jede Minute wiederholen"
 							}
 						},
 						{
 							"id": "5",
 							"label": {
 								"en": "Repeat every 5 minutes",
-								"nl": "Iedere 5 minuten herhalen"
+								"nl": "Iedere 5 minuten herhalen",
+								"de": "Jede 5 Minuten wiederholen"
 							}
 						},
 						{
 							"id": "15",
 							"label": {
 								"en": "Repeat every quarter of an hour",
-								"nl": "Ieder kwartier herhalen"
+								"nl": "Ieder kwartier herhalen",
+								"de": "Jede Viertelstunde wiederholen"
 							}
 						},
 						{
 							"id": "30",
 							"label": {
 								"en": "Repeat every half hour",
-								"nl": "Ieder half uur herhalen"
+								"nl": "Ieder half uur herhalen",
+								"de": "Jede halbe Stunde wiederholen"
 							}
 						},
 						{
 							"id": "60",
 							"label": {
 								"en": "Repeat every hour",
-								"nl": "Ieder uur herhalen"
+								"nl": "Ieder uur herhalen",
+								"de": "Jede Stunde wiederholen"
 							}
 						}
 					]
@@ -430,11 +486,13 @@
 			"id": "mobile_location_null_changed",
 			"title": {
 				"en": "Location validity changes",
-				"nl": "Locatie geldigheid verandert"
+				"nl": "Locatie geldigheid verandert",
+				"de": "Standort-Gültigkeit ändert sich"
 			},
 			"hint": {
 				"en": "This card starts a Flow when the validity for a mobile location changes. A location is invalid if a device did not sent a location update to the tado° server for about 35 hours or longer while Location-based control is/was enabled. In this situation, the mobile device is temporarily excluded from Location-based Control by tado°.",
-				"nl": "Dit kaartje start een Flow wanneer de geldigheid voor een mobiele locatie verandert. Een locatie is ongeldig wanneer een apparaat ongeveer 35 uur of langer geen locatie update heeft verstuurd naar de tado°-server terwijl Locatiegebaseerde controle is/was ingeschakeld. In deze situatie wordt het mobiele apparaat door tado° tijdelijk uitgesloten van Locatiegebaseerde Controle."
+				"nl": "Dit kaartje start een Flow wanneer de geldigheid voor een mobiele locatie verandert. Een locatie is ongeldig wanneer een apparaat ongeveer 35 uur of langer geen locatie update heeft verstuurd naar de tado°-server terwijl Locatiegebaseerde controle is/was ingeschakeld. In deze situatie wordt het mobiele apparaat door tado° tijdelijk uitgesloten van Locatiegebaseerde Controle.",
+				"de": "Diese Karte startet einen Flow, wenn sich die Gültigkeit eines mobilen Standortes ändert. Ein Standort ist ungültig, wenn das Gerät für ca. 35 Stunden oder länger kein Standort an die tado°-Server gesendet hat, obwohl Standort-basierte Kontrolle aktiviert ist/war. In dieser Situation wird das Mobilgerät temporär aus der Standort-basierten Kontrolle von tado° ausgeschlossen."
 			},
 			"tokens": [
 				{
@@ -442,7 +500,8 @@
 					"type": "boolean",
 					"title": {
 						"en": "valid (true or false)",
-						"nl": "geldig (waar of niet waar)"
+						"nl": "geldig (waar of niet waar)",
+						"de": "gültig (true oder false)"
 					}
 				}
 			],
@@ -453,7 +512,8 @@
 					"name": "mobile_device_selection",
 					"placeholder": {
 						"en": "Mobile device",
-						"nl": "Mobiel apparaat"
+						"nl": "Mobiel apparaat",
+						"de": "Mobilgerät"
 					}
 				}
 			]
@@ -462,11 +522,13 @@
 			"id": "outside_temperature",
 			"title": {
 				"en": "Outside temperature changes",
-				"nl": "Buiten temperatuur verandert"
+				"nl": "Buiten temperatuur verandert",
+				"de": "Außentemperatur ändert sich"
 			},
 			"hint": {
 				"en": "This card starts a Flow when a change in the outside temperature is observed. This information is NOT measured by your thermostat but is delivered to tado° by OpenWeatherMap.org.",
-				"nl": "Dit kaartje start een Flow wanneer een verandering van de buitentemperatuur wordt waargenomen. Deze informatie wordt niet door je thermostaat gemeten maar wordt door OpenWeatherMap.org aan tado° geleverd."
+				"nl": "Dit kaartje start een Flow wanneer een verandering van de buitentemperatuur wordt waargenomen. Deze informatie wordt niet door je thermostaat gemeten maar wordt door OpenWeatherMap.org aan tado° geleverd.",
+				"de": "Diese Karte startet einen Flow, wenn eine Änderung der Außentemperatur erkannt wird. Diese Information wird NICHT durch dein Thermostat gemessen, sondern durch tado° per OpenWeatherMap.org bereitgestellt."
 			},
 			"tokens": [
 				{
@@ -474,7 +536,8 @@
 					"type": "number",
 					"title": {
 						"en": "temperature",
-						"nl": "temperatuur"
+						"nl": "temperatuur",
+						"de": "Temperatur"
 					},
 					"example": 18
 				}
@@ -485,11 +548,13 @@
 			"id": "solar_intensity",
 			"title": {
 				"en": "Solar intensity changes",
-				"nl": "Zonne-intensiteit verandert"
+				"nl": "Zonne-intensiteit verandert",
+				"de": "Sonnenintensität ändert sich"
 			},
 			"hint": {
 				"en": "This card starts a Flow when a change in the Solar Intensity is observed. This information is NOT measured by your thermostat but is delivered to tado° by OpenWeatherMap.org.",
-				"nl": "Dit kaartje start een Flow wanneer een verandering van de Zonne-intensiteit wordt waargenomen. Deze informatie wordt niet door je thermostaat gemeten maar wordt door OpenWeatherMap.org aan tado° geleverd."
+				"nl": "Dit kaartje start een Flow wanneer een verandering van de Zonne-intensiteit wordt waargenomen. Deze informatie wordt niet door je thermostaat gemeten maar wordt door OpenWeatherMap.org aan tado° geleverd.",
+				"de": "Diese Karte startet einen Flow, wenn eine Änderung der Sonnenintensität erkannt wird. Diese Information wird NICHT durch dein Thermostat gemessen, sondern durch tado° per OpenWeatherMap.org bereitgestellt."
 			},
 			"tokens": [
 				{
@@ -497,7 +562,8 @@
 					"type": "number",
 					"title": {
 						"en": "intensity (%)",
-						"nl": "intensiteit (%)"
+						"nl": "intensiteit (%)",
+						"de": "Intensität (%)"
 					},
 					"example": 50
 				}
@@ -508,11 +574,13 @@
 			"id": "weather",
 			"title": {
 				"en": "The weather changes to...",
-				"nl": "Het weer verandert naar..."
+				"nl": "Het weer verandert naar...",
+				"de": "Das Wetter ändert sich auf..."
 			},
 			"hint": {
 				"en": "This card starts a Flow when the weather changes to the selected condition. This information is NOT measured by your thermostat but is delivered to tado° by OpenWeatherMap.org.",
-				"nl": "Dit kaartje start een Flow wanneer het weer verandert naar de geselecteerde omstandigheid. Deze informatie wordt niet door je thermostaat gemeten maar wordt door OpenWeatherMap.org aan tado° geleverd."
+				"nl": "Dit kaartje start een Flow wanneer het weer verandert naar de geselecteerde omstandigheid. Deze informatie wordt niet door je thermostaat gemeten maar wordt door OpenWeatherMap.org aan tado° geleverd.",
+				"de": "Diese Karte startet einen Flow, wenn sich das Wetter auf eine bestimmte Bedingung ändert. Diese Information wird NICHT durch dein Thermostat gemessen, sondern durch tado° per OpenWeatherMap.org bereitgestellt."
 			},
 			"tokens": [],
 			"$filter": "capabilities=weather_state",
@@ -522,7 +590,8 @@
 					"name": "weather_selection",
 					"placeholder": {
 						"en": "Weather condition",
-						"nl": "Weersomstandigheid"
+						"nl": "Weersomstandigheid",
+						"de": "Wetterbedingung"
 					}
 				}
 			]
@@ -533,11 +602,13 @@
 			"id": "target_temperature_inbetween",
 			"title": {
 				"en": "Set temp. !{{is between|is not between}}",
-				"nl": "Ingestelde temp. !{{ligt tussen|ligt niet tussen}}"
+				"nl": "Ingestelde temp. !{{ligt tussen|ligt niet tussen}}",
+				"de": "Setze Temp. !{{ist zwischen|ist nicht zwischen}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether or not the temperature setting for the zone is between given values. The specified values are also valid.",
-				"nl": "Gebruik dit kaartje om te bepalen of de temperatuur instelling voor de zone tussen twee waarden ligt. De opgegeven waarden zijn ook geldig."
+				"nl": "Gebruik dit kaartje om te bepalen of de temperatuur instelling voor de zone tussen twee waarden ligt. De opgegeven waarden zijn ook geldig.",
+				"de": "Verwende diese Karte, um zu bestimmen, ob die Temperatureinstellung für die Zone zwischen zwei Werten liegt. Die festgelegten Werte sind auch gültig."
 			},
 			"$filter": "capabilities=target_temperature",
 			"args": [
@@ -549,7 +620,8 @@
 					"step": 1,
 					"placeholder": {
 						"en": "°C",
-						"nl": "°C"
+						"nl": "°C",
+						"de": "°C"
 					}
 				},
 				{
@@ -560,7 +632,8 @@
 					"step": 1,
 					"placeholder": {
 						"en": "°C",
-						"nl": "°C"
+						"nl": "°C",
+						"de": "°C"
 					}
 				}
 			]
@@ -569,11 +642,13 @@
 			"id": "measure_temperature_between",
 			"title": {
 				"en": "Temperature !{{is between|is not between}}",
-				"nl": "Temperatuur !{{ligt tussen|ligt niet tussen}}"
+				"nl": "Temperatuur !{{ligt tussen|ligt niet tussen}}",
+				"de": "Temperatur !{{ist zwischen|ist nicht zwischen}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether or not the zone temperature is between two values. The specified values are also valid.",
-				"nl": "Gebruik dit kaartje om te bepalen of de zone temperatuur tussen twee waarden ligt. De opgegeven waarden zijn ook geldig."
+				"nl": "Gebruik dit kaartje om te bepalen of de zone temperatuur tussen twee waarden ligt. De opgegeven waarden zijn ook geldig.",
+				"de": "Verwende diese Karte, um zu bestimmen, ob die Zonentemperatur zwischen zwei Werten liegt. Die festgelegten Werte sind auch gültig."
 			},
 			"$filter": "capabilities=measure_temperature",
 			"args": [
@@ -585,7 +660,8 @@
 					"step": 1,
 					"placeholder": {
 						"en": "°C",
-						"nl": "°C"
+						"nl": "°C",
+						"de": "°C"
 					}
 				},
 				{
@@ -596,7 +672,8 @@
 					"step": 1,
 					"placeholder": {
 						"en": "°C",
-						"nl": "°C"
+						"nl": "°C",
+						"de": "°C"
 					}
 				}
 			]
@@ -605,11 +682,13 @@
 			"id": "measure_humidity_between",
 			"title": {
 				"en": "Humidity !{{is between|is not between}}",
-				"nl": "Luchtvochtigheid !{{ligt tussen|ligt niet tussen}}"
+				"nl": "Luchtvochtigheid !{{ligt tussen|ligt niet tussen}}",
+				"de": "Luftfeuchtigkeit !{{ist zwischen|ist nicht zwischen}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether or not the humidity for the zone is between two values. The specified values are also valid.",
-				"nl": "Gebruik dit kaartje om te bepalen of de luchtvochtigheid voor de zone tussen twee waarden ligt. De opgegeven waarden zijn ook geldig."
+				"nl": "Gebruik dit kaartje om te bepalen of de luchtvochtigheid voor de zone tussen twee waarden ligt. De opgegeven waarden zijn ook geldig.",
+				"de": "Verwende diese Karte, um zu bestimmen, ob die Luftfeuchtigkeit für die Zone zwischen zwei Werten liegt. Die festgelegten Werte sind auch gültig."
 			},
 			"$filter": "capabilities=measure_humidity",
 			"args": [
@@ -621,7 +700,8 @@
 					"step": 1,
 					"placeholder": {
 						"en": "%",
-						"nl": "%"
+						"nl": "%",
+						"de": "%"
 					}
 				},
 				{
@@ -632,7 +712,8 @@
 					"step": 1,
 					"placeholder": {
 						"en": "%",
-						"nl": "%"
+						"nl": "%",
+						"de": "%"
 					}
 				}
 			]
@@ -641,11 +722,13 @@
 			"id": "heating_power_between",
 			"title": {
 				"en": "Capacity !{{is between|is not between}}",
-				"nl": "Capaciteit !{{ligt tussen|ligt niet tussen}}"
+				"nl": "Capaciteit !{{ligt tussen|ligt niet tussen}}",
+				"de": "Kapazität !{{it zwischen|ist nicht zwischen}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether or not the heating capacity for the zone is between two values. The specified values are also valid.",
-				"nl": "Gebruik dit kaartje om te bepalen of de verwarmingscapaciteit voor de zone tussen twee waarden ligt. De opgegeven waarden zijn ook geldig."
+				"nl": "Gebruik dit kaartje om te bepalen of de verwarmingscapaciteit voor de zone tussen twee waarden ligt. De opgegeven waarden zijn ook geldig.",
+				"de": "Verwende diese Karte, um zu bestimmen, ob die Heizkapazität für die Zone zwischen angegebenen Werten liegt. Die festgelegten Werte sind auch gültig."
 			},
 			"$filter": "capabilities=heating_power",
 			"args": [
@@ -657,7 +740,8 @@
 					"step": 1,
 					"placeholder": {
 						"en": "%",
-						"nl": "%"
+						"nl": "%",
+						"de": "%"
 					}
 				},
 				{
@@ -668,7 +752,8 @@
 					"step": 1,
 					"placeholder": {
 						"en": "%",
-						"nl": "%"
+						"nl": "%",
+						"de": "%"
 					}
 				}
 			]
@@ -677,11 +762,13 @@
 			"id": "airco_mode",
 			"title": {
 				"en": "Air conditioning mode !{{is|is not}}",
-				"nl": "Airco modus !{{is|is niet}}"
+				"nl": "Airco modus !{{is|is niet}}",
+				"de": "Klimaanlagen-Modus !{{ist|ist nicht}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether an air conditioning mode has been set or not.",
-				"nl": "Gebruik dit kaartje om te bepalen of een airco modus wel of niet is ingesteld."
+				"nl": "Gebruik dit kaartje om te bepalen of een airco modus wel of niet is ingesteld.",
+				"de": "Verwende diese Karte, um zu bestimmen, ob der Klimaanlagen-Modus gesetzt wurde."
 			},
 			"$filter": "capabilities=airco_mode",
 			"args": [
@@ -690,7 +777,8 @@
 					"name": "current_mode",
 					"placeholder": {
 						"en": "Air conditioning mode",
-						"nl": "Airco modus"
+						"nl": "Airco modus",
+						"de": "Klimaanlagen-Modus"
 					}
 				}
 			]
@@ -699,11 +787,13 @@
 			"id": "smart_heating",
 			"title": {
 				"en": "Smart Schedule !{{is active|is not active}}",
-				"nl": "Slimme Schema !{{is actief|is niet actief}}"
+				"nl": "Slimme Schema !{{is actief|is niet actief}}",
+				"de": "Intelligenter Zeitplan !{{ist aktiv|ist nicht aktiv}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether Smart Schedule is active or not.",
-				"nl": "Gebruik dit kaartje om te bepalen of het Slimme Schema actief is of niet."
+				"nl": "Gebruik dit kaartje om te bepalen of het Slimme Schema actief is of niet.",
+				"de": "Verwende diese Karte, um zu bestimmen, ob der intelligente Zeitplan aktiv ist."
 			},
 			"$filter": "capabilities=smart_heating"
 		},
@@ -711,11 +801,13 @@
 			"id": "open_window",
 			"title": {
 				"en": "Open window detection !{{is active|is not active}}",
-				"nl": "Open raam detectie !{{is actief|is niet actief}}"
+				"nl": "Open raam detectie !{{is actief|is niet actief}}",
+				"de": "Offenes-Fenster-Erkennung !{{ist aktiv|ist nicht aktiv}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether Open window detection is active or not.",
-				"nl": "Gebruik dit kaartje om te bepalen of de Open raam detectie actief is of niet."
+				"nl": "Gebruik dit kaartje om te bepalen of de Open raam detectie actief is of niet.",
+				"de": "Verwende diese Karte, um zu bestimmen, ob die Offenes-Fenster-Erkennung aktiv ist."
 			},
 			"$filter": "capabilities=detect_open_window"
 		},
@@ -723,11 +815,13 @@
 			"id": "if_battery_status",
 			"title": {
 				"en": "Batteries are !{{good|(almost) empty}}",
-				"nl": "Batterijen zijn !{{goed|(bijna) leeg}}"
+				"nl": "Batterijen zijn !{{goed|(bijna) leeg}}",
+				"de": "Batterien sind !{{gut|fast leer}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether the batteries are good or almost empty.",
-				"nl": "Gebruik dit kaartje om te bepalen of de batterijen goed zijn of bijna leeg."
+				"nl": "Gebruik dit kaartje om te bepalen of de batterijen goed zijn of bijna leeg.",
+				"de": "Verwende diese Karte, um zu bestimmen, ob die Batterien gut oder fast leer sind."
 			},
 			"$filter": "capabilities=battery_state"
 		},
@@ -735,11 +829,13 @@
 			"id": "presence_status",
 			"title": {
 				"en": "!{{Someone is at home|Nobody is at home}}",
-				"nl": "!{{Iemand is thuis|Niemand is thuis}}"
+				"nl": "!{{Iemand is thuis|Niemand is thuis}}",
+				"de": "!{{Jemand ist zuhause|Niemand ist zuhause}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether someone is at home or not.",
-				"nl": "Gebruik dit kaartje om te bepalen of er iemand thuis is of niet."
+				"nl": "Gebruik dit kaartje om te bepalen of er iemand thuis is of niet.",
+				"de": "Verwende diese Karte, um zu bestimmen, ob ob jemand daheim ist."
 			},
 			"$filter": "capabilities=presence_status"
 		},
@@ -747,11 +843,13 @@
 			"id": "mobile_athome_true",
 			"title": {
 				"en": "Is !{{at home|away}}",
-				"nl": "Is !{{thuis|afwezig}}"
+				"nl": "Is !{{thuis|afwezig}}",
+				"de": "Ist !{{zuhause|weg}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether a mobile device is at home or not.",
-				"nl": "Gebruik dit kaartje om te bepalen of een mobiel apparaat thuis is of niet."
+				"nl": "Gebruik dit kaartje om te bepalen of een mobiel apparaat thuis is of niet.",
+				"de": "Verwende diese Karte, um zu bestimmen, ob sich ein Mobilgerät zuhause befindet."
 			},
 			"$filter": "capabilities=presence_status",
 			"args": [
@@ -760,7 +858,8 @@
 					"name": "mobile_device_selection",
 					"placeholder": {
 						"en": "Mobile device",
-						"nl": "Mobiel apparaat"
+						"nl": "Mobiel apparaat",
+						"de": "Mobilgerät"
 					}
 				}
 			]
@@ -769,11 +868,13 @@
 			"id": "mobile_tracking_true",
 			"title": {
 				"en": "Location control is !{{on for|off for}}",
-				"nl": "Locatie controle is !{{aan voor|uit voor}}"
+				"nl": "Locatie controle is !{{aan voor|uit voor}}",
+				"de": "Standortkontrolle ist !{{an für|aus für}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether a mobile device has Location-based control on or off.",
-				"nl": "Gebruik dit kaartje om te bepalen of een mobiel apparaat de locatiegebaseerde controle heeft ingeschakeld of uitgeschakeld."
+				"nl": "Gebruik dit kaartje om te bepalen of een mobiel apparaat de locatiegebaseerde controle heeft ingeschakeld of uitgeschakeld.",
+				"de": "Verwende diese Karte, um zu bestimmen, ob ein Mobilgerät Standort-basierte Kontrolle an oder aus hat."
 			},
 			"$filter": "capabilities=presence_status",
 			"args": [
@@ -782,7 +883,8 @@
 					"name": "mobile_device_selection",
 					"placeholder": {
 						"en": "Mobile device",
-						"nl": "Mobiel apparaat"
+						"nl": "Mobiel apparaat",
+						"de": "Mobilgerät"
 					}
 				}
 			]
@@ -791,11 +893,13 @@
 			"id": "mobile_kilometer_between",
 			"title": {
 				"en": "Distance in kilometers is !{{between|not between}}",
-				"nl": "Afstand in kilometers ligt !{{tussen|niet tussen}}"
+				"nl": "Afstand in kilometers ligt !{{tussen|niet tussen}}",
+				"de": "Distanz in Kilometern ist !{{zwischen|nicht zwischen}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether or not the distance in kilometers between the Home Area and a mobile device is between two values. The specified values are also valid.",
-				"nl": "Gebruik dit kaartje om te bepalen of de afstand in kilometers tussen het Woongebied en een mobiel apparaat wel of niet tussen twee waarden ligt. De opgegeven waarden zijn ook geldig."
+				"nl": "Gebruik dit kaartje om te bepalen of de afstand in kilometers tussen het Woongebied en een mobiel apparaat wel of niet tussen twee waarden ligt. De opgegeven waarden zijn ook geldig.",
+				"de": "Verwende diese Karte, um zu bestimmen, ob die Distanz in Kilometern zwischen dem Heimbereich und einem Mobilgerät zwischen zwei Werten liegt. Die festgelegten Werte sind auch gültig."
 			},
 			"$filter": "capabilities=presence_status",
 			"args": [
@@ -804,7 +908,8 @@
 					"name": "mobile_device_selection",
 					"placeholder": {
 						"en": "Mobile device",
-						"nl": "Mobiel apparaat"
+						"nl": "Mobiel apparaat",
+						"de": "Mobilgerät"
 					}
 				},
 				{
@@ -814,7 +919,8 @@
 					"max": 4000,
 					"placeholder": {
 						"en": "0.00 - 4000",
-						"nl": "0.00 - 4000"
+						"nl": "0.00 - 4000",
+						"de": "0.00 - 4000"
 					}
 				},
 				{
@@ -824,7 +930,8 @@
 					"max": 4000,
 					"placeholder": {
 						"en": "0.00 - 4000",
-						"nl": "0.00 - 4000"
+						"nl": "0.00 - 4000",
+						"de": "0.00 - 4000"
 					}
 				}
 			]
@@ -833,11 +940,13 @@
 			"id": "mobile_distance_between",
 			"title": {
 				"en": "Relative distance !{{is|is not}} between",
-				"nl": "Relatieve afstand ligt !{{tussen|niet tussen}}"
+				"nl": "Relatieve afstand ligt !{{tussen|niet tussen}}",
+				"de": "Relative Distanz !{{ist|ist nicht}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether or not the relative distance of a mobile device is between two values. 0 = In Home Area, 0.2 ≈ 225 meters from Home Area, 0.3 ≈ 785 m, 0.4 ≈ 2.7 km, 0.5 ≈ 9.2 km, 0.6 ≈ 32 km, 0.7 ≈ 110 km, 0.8 ≈ 375 km, 0.9 ≈ 1300 km, 1 = 4000+ km.",
-				"nl": "Gebruik dit kaartje om te bepalen of de relatieve afstand van een mobiel apparaat wel of niet tussen twee waarden ligt. 0 = In Woongebied, 0.2 ≈ 225 meters from Home Area, 0.3 ≈ 785 m, 0.4 ≈ 2.7 km, 0.5 ≈ 9.2 km, 0.6 ≈ 32 km, 0.7 ≈ 110 km, 0.8 ≈ 375 km, 0.9 ≈ 1300 km, 1 = 4000+ km."
+				"nl": "Gebruik dit kaartje om te bepalen of de relatieve afstand van een mobiel apparaat wel of niet tussen twee waarden ligt. 0 = In Woongebied, 0.2 ≈ 225 meters from Home Area, 0.3 ≈ 785 m, 0.4 ≈ 2.7 km, 0.5 ≈ 9.2 km, 0.6 ≈ 32 km, 0.7 ≈ 110 km, 0.8 ≈ 375 km, 0.9 ≈ 1300 km, 1 = 4000+ km.",
+				"de": "Diese Karte startet einen Flow, wenn sich die Distanz zwischen einem Mobilgerät und dem Heimbereich ändert. Relative Distanzmarker: 0.2 ≈ 225 Meter von Heimbereich, 0.3 ≈ 785 m, 0.4 ≈ 2.7 km, 0.5 ≈ 9.2 km, 0.6 ≈ 32 km, 0.7 ≈ 110 km, 0.8 ≈ 375 km, 0.9 ≈ 1300 km, 1 = 4000+ km."
 			},
 			"$filter": "capabilities=presence_status",
 			"args": [
@@ -846,7 +955,8 @@
 					"name": "mobile_device_selection",
 					"placeholder": {
 						"en": "Mobile device",
-						"nl": "Mobiel apparaat"
+						"nl": "Mobiel apparaat",
+						"de": "Mobilgerät"
 					}
 				},
 				{
@@ -856,7 +966,8 @@
 					"max": 1,
 					"placeholder": {
 						"en": "0.00000 - 1",
-						"nl": "0.00000 - 1"
+						"nl": "0.00000 - 1",
+						"de": "0.00000 - 1"
 					}
 				},
 				{
@@ -866,7 +977,8 @@
 					"max": 1,
 					"placeholder": {
 						"en": "0.00000 - 1",
-						"nl": "0.00000 - 1"
+						"nl": "0.00000 - 1",
+						"de": "0.00000 - 1"
 					}
 				}
 			]
@@ -875,11 +987,13 @@
 			"id": "mobile_location_time",
 			"title": {
 				"en": "Location was !{{updated|not updated}} in the past time",
-				"nl": "Locatie is !{{bijgewerkt|niet bijgewerkt}} in de afgelopen tijd"
+				"nl": "Locatie is !{{bijgewerkt|niet bijgewerkt}} in de afgelopen tijd",
+				"de": "Standort wurde in der letzten Zeit !{{aktualisiert|nicht aktualisiert}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether the location of a mobile device has been updated within a certain time or not.",
-				"nl": "Gebruik dit kaartje om te bepalen of de locatie van een mobiel apparaat binnen een bepaalde tijd is bijgewerkt of niet."
+				"nl": "Gebruik dit kaartje om te bepalen of de locatie van een mobiel apparaat binnen een bepaalde tijd is bijgewerkt of niet.",
+				"de": "Verwende diese Karte, um zu bestimmen, ob der Standort eines Mobilgerätes innerhalb einer bestimmten Zeit aktualisiert wurde."
 			},
 			"$filter": "capabilities=presence_status",
 			"args": [
@@ -888,7 +1002,8 @@
 					"name": "mobile_device_selection",
 					"placeholder": {
 						"en": "Mobile device",
-						"nl": "Mobiel apparaat"
+						"nl": "Mobiel apparaat",
+						"de": "Mobilgerät"
 					}
 				},
 				{
@@ -896,7 +1011,8 @@
 					"type": "time",
 					"placeholder": {
 						"en": "Timer",
-						"nl": "Timer"
+						"nl": "Timer",
+						"de": "Timer"
 					}
 				}
 			]
@@ -905,11 +1021,13 @@
 			"id": "mobile_location_true",
 			"title": {
 				"en": "Connection is !{{valid|broken}}",
-				"nl": "Verbinding is !{{geldig|verbroken}}"
+				"nl": "Verbinding is !{{geldig|verbroken}}",
+				"de": "Verbindung ist !{{gültig|unterbrochen}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether the location for a mobile device is valid or not. A location is invalid if a device did not sent a location update to the tado° server for more than 35 hours while Location-based control is/was enabled.",
-				"nl": "Gebruik dit kaartje om te bepalen of de locatie van een mobiel apparaat geldig is of niet. Een locatie is ongeldig wanneer een apparaat meer dan 35 uur geen locatie update heeft verstuurd naar de tado°-server terwijl Locatiegebaseerde controle is/was ingeschakeld."
+				"nl": "Gebruik dit kaartje om te bepalen of de locatie van een mobiel apparaat geldig is of niet. Een locatie is ongeldig wanneer een apparaat meer dan 35 uur geen locatie update heeft verstuurd naar de tado°-server terwijl Locatiegebaseerde controle is/was ingeschakeld.",
+				"de": "Diese Karte startet einen Flow, ob der Standort eines Mobilgerätes gültig ist. Ein Standort ist ungültig, wenn das Gerät für ca. 35 Stunden oder länger kein Standort an die tado°-Server gesendet hat, obwohl Standort-basierte Kontrolle aktiviert ist/war."
 			},
 			"$filter": "capabilities=presence_status",
 			"args": [
@@ -918,7 +1036,8 @@
 					"name": "mobile_device_selection",
 					"placeholder": {
 						"en": "Mobile device",
-						"nl": "Mobiel apparaat"
+						"nl": "Mobiel apparaat",
+						"de": "Mobilgerät"
 					}
 				}
 			]
@@ -927,11 +1046,13 @@
 			"id": "measure_temperature_outside_between",
 			"title": {
 				"en": "Outside temp. !{{is between|is not between}}",
-				"nl": "Buitentemp. !{{ligt tussen|ligt niet tussen}}"
+				"nl": "Buitentemp. !{{ligt tussen|ligt niet tussen}}",
+				"de": "Außentemperatur !{{ist zwischen|ist nicht zwischen}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether or not the outside temperature is between two values. The specified values are also valid.",
-				"nl": "Gebruik dit kaartje om te bepalen of de buitentemperatuur tussen twee waarden ligt. De opgegeven waarden zijn ook geldig."
+				"nl": "Gebruik dit kaartje om te bepalen of de buitentemperatuur tussen twee waarden ligt. De opgegeven waarden zijn ook geldig.",
+				"de": "Verwende diese Karte, um zu bestimmen, ob die Außentemperatur zwischen zwei Werten liegt. Die festgelegten Werte sind auch gültig."
 			},
 			"$filter": "capabilities=measure_temperature.outside",
 			"args": [
@@ -943,7 +1064,8 @@
 					"step": 1,
 					"placeholder": {
 						"en": "°C",
-						"nl": "°C"
+						"nl": "°C",
+						"de": "°C"
 					}
 				},
 				{
@@ -954,7 +1076,8 @@
 					"step": 1,
 					"placeholder": {
 						"en": "°C",
-						"nl": "°C"
+						"nl": "°C",
+						"de": "°C"
 					}
 				}
 			]
@@ -963,11 +1086,13 @@
 			"id": "solar_intensity_between",
 			"title": {
 				"en": "Solar intensity !{{is between|is not between}}",
-				"nl": "Zonne-intensiteit !{{ligt tussen|ligt niet tussen}}"
+				"nl": "Zonne-intensiteit !{{ligt tussen|ligt niet tussen}}",
+				"de": "Sonnenintensität !{{ist zwischen|ist nicht zwischen}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether or not the solar intensity is between two values. The specified values are also valid.",
-				"nl": "Gebruik dit kaartje om te bepalen of de zonne-intensiteit tussen twee waarden ligt. De opgegeven waarden zijn ook geldig."
+				"nl": "Gebruik dit kaartje om te bepalen of de zonne-intensiteit tussen twee waarden ligt. De opgegeven waarden zijn ook geldig.",
+				"de": "Verwende diese Karte, um zu bestimmen, ob die Sonnenintensität zwischen zwei Werten liegt. Die festgelegten Werte sind auch gültig."
 			},
 			"$filter": "capabilities=solar_intensity",
 			"args": [
@@ -979,7 +1104,8 @@
 					"step": 1,
 					"placeholder": {
 						"en": "%",
-						"nl": "%"
+						"nl": "%",
+						"de": "%"
 					}
 				},
 				{
@@ -990,7 +1116,8 @@
 					"step": 1,
 					"placeholder": {
 						"en": "%",
-						"nl": "%"
+						"nl": "%",
+						"de": "%"
 					}
 				}
 			]
@@ -999,11 +1126,13 @@
 			"id": "weather_state",
 			"title": {
 				"en": "Weather condition !{{is|is not}}",
-				"nl": "Weersomstandigheid !{{is|is niet}}"
+				"nl": "Weersomstandigheid !{{is|is niet}}",
+				"de": "Wetterbedingung !{{ist|ist nicht}}"
 			},
 			"hint": {
 				"en": "Use this card to determine whether or not a weather condition occurs. This information is NOT measured by your thermostat but is delivered to tado° by OpenWeatherMap.org.",
-				"nl": "Gebruik dit kaartje om te bepalen of een weersomstandigheid wel of niet optreedt. Deze informatie wordt niet door je thermostaat gemeten maar wordt door OpenWeatherMap.org aan tado° geleverd."
+				"nl": "Gebruik dit kaartje om te bepalen of een weersomstandigheid wel of niet optreedt. Deze informatie wordt niet door je thermostaat gemeten maar wordt door OpenWeatherMap.org aan tado° geleverd.",
+				"de": "Verwende diese Karte, um zu bestimmen, ob eine Wetterbedingung auftritt. Diese Information wird NICHT durch dein Thermostat gemessen, sondern durch tado° per OpenWeatherMap.org bereitgestellt."
 			},
 			"$filter": "capabilities=weather_state",
 			"args": [
@@ -1012,7 +1141,8 @@
 					"name": "current_weather_state",
 					"placeholder": {
 						"en": "Weather condition",
-						"nl": "Weersomstandigheid"
+						"nl": "Weersomstandigheid",
+						"de": "Wetterbedingung"	
 					}
 				}
 			]
@@ -1023,11 +1153,13 @@
 			"id": "set_on",
 			"title": {
 				"en": "Enable the zone",
-				"nl": "Schakel de zone in"
+				"nl": "Schakel de zone in",
+				"de": "Die Zone aktivieren"
 			},
 			"hint": {
 				"en": "This card enables this zone until the user or another flow card intervenes.",
-				"nl": "Dit kaartje schakelt deze zone in totdat de gebruiker of een ander flow kaartje ingrijpt."
+				"nl": "Dit kaartje schakelt deze zone in totdat de gebruiker of een ander flow kaartje ingrijpt.",
+				"de": "Diese Karte aktiviert diese Zone, bis ein anderer Benutzer oder eine andere Flow-Karte interveniert."
 			},
 			"$filter": "capabilities=target_onoff"
 		},
@@ -1035,11 +1167,13 @@
 			"id": "temperature_until_timer",
 			"title": {
 				"en": "Temperature until time expires",
-				"nl": "Temperatuur totdat tijd afloopt"
+				"nl": "Temperatuur totdat tijd afloopt",
+				"de": "Temperatur, bis Zeit abläuft"
 			},
 			"hint": {
 				"en": "This card sets the temperature for this zone until the set time expires and Smart Schedule takes control.",
-				"nl": "Dit kaartje stelt de temperatuur in voor deze zone totdat de ingestelde tijd afloopt en het Slimme Schema de controle overneemt."
+				"nl": "Dit kaartje stelt de temperatuur in voor deze zone totdat de ingestelde tijd afloopt en het Slimme Schema de controle overneemt.",
+				"de": "Diese Karte setzt die Temperatur für diese Zone, bis die festgelegte Zeit abläuft und der intelligente Zeitplan die Kontrolle übernimmt."
 			},
 			"$filter": "capabilities=heating_only",
 			"args": [
@@ -1048,7 +1182,8 @@
 					"name": "temperature",
 					"placeholder": {
 						"en": "Temperature",
-						"nl": "Temperatuur"
+						"nl": "Temperatuur",
+						"de": "Temperatur"
 					}
 				},
 				{
@@ -1056,7 +1191,8 @@
 					"type": "time",
 					"placeholder": {
 						"en": "Smart Schedule after...",
-						"nl": "Slim Schema na..."
+						"nl": "Slim Schema na...",
+						"de": "Intelligenter Zeitplan nach..."
 					}
 				}
 			]
@@ -1065,11 +1201,13 @@
 			"id": "temperature_airco_until_timer",
 			"title": {
 				"en": "Temperature until time expires",
-				"nl": "Temperatuur totdat tijd afloopt"
+				"nl": "Temperatuur totdat tijd afloopt",
+				"de": "Temperatur, bis Zeit abläuft"
 			},
 			"hint": {
 				"en": "This card sets the temperature for this zone until the set time expires and Smart Schedule takes control.",
-				"nl": "Dit kaartje stelt de temperatuur in voor deze zone totdat de ingestelde tijd afloopt en het Slimme Schema de controle overneemt."
+				"nl": "Dit kaartje stelt de temperatuur in voor deze zone totdat de ingestelde tijd afloopt en het Slimme Schema de controle overneemt.",
+				"de": "Diese Karte setzt die Temperatur für diese Zone, bis die festgelegte Zeit abläuft und der intelligente Zeitplan die Kontrolle übernimmt."
 			},
 			"$filter": "capabilities=airco_mode",
 			"args": [
@@ -1078,7 +1216,8 @@
 					"name": "airco_mode",
 					"placeholder": {
 						"en": "Mode",
-						"nl": "Modus"
+						"nl": "Modus",
+						"de": "Modus"
 					}
 				},
 				{
@@ -1086,7 +1225,8 @@
 					"name": "temperature",
 					"placeholder": {
 						"en": "Temperature",
-						"nl": "Temperatuur"
+						"nl": "Temperatuur",
+						"de": "Temperatur"
 					}
 				},
 				{
@@ -1094,7 +1234,8 @@
 					"type": "time",
 					"placeholder": {
 						"en": "Smart Schedule after...",
-						"nl": "Slim Schema na..."
+						"nl": "Slim Schema na...",
+						"de": "Intelligenter Zeitplan nach..."
 					}
 				}
 			]
@@ -1103,11 +1244,13 @@
 			"id": "set_on_until_timer",
 			"title": {
 				"en": "Zone enabled until time expires",
-				"nl": "Zone ingeschakeld totdat tijd afloopt"
+				"nl": "Zone ingeschakeld totdat tijd afloopt",
+				"de": "Zone aktiviert, bis Zeit abläuft"
 			},
 			"hint": {
 				"en": "This card enables this zone until the set time expires and Smart Schedule takes control.",
-				"nl": "Dit kaartje schakelt deze zone in totdat de ingestelde tijd afloopt en het Slimme Schema de controle overneemt."
+				"nl": "Dit kaartje schakelt deze zone in totdat de ingestelde tijd afloopt en het Slimme Schema de controle overneemt.",
+				"de": "Diese Karte aktiviert diese Zone, bis die festgelegte Zeit abläuft und der intelligente Zeitplan die Kontrolle übernimmt."
 			},
 			"$filter": "capabilities=target_onoff",
 			"args": [
@@ -1116,7 +1259,8 @@
 					"type": "time",
 					"placeholder": {
 						"en": "Smart Schedule after...",
-						"nl": "Slim Schema na..."
+						"nl": "Slim Schema na...",
+						"de": "Intelligenter Zeitplan nach..."
 					}
 				}
 			]
@@ -1125,11 +1269,13 @@
 			"id": "temperature_until_smart",
 			"title": {
 				"en": "Temperature until Smart Schedule changes",
-				"nl": "Temperatuur tot het Slimme Schema verandert"
+				"nl": "Temperatuur tot het Slimme Schema verandert",
+				"de": "Temperatur, bis intelligenter Zeitplan sich ändert"
 			},
 			"hint": {
 				"en": "This card sets the temperature for this zone until Smart Schedule changes and takes control.",
-				"nl": "Dit kaartje stelt de temperatuur in voor deze zone totdat het Slimme Schema verandert en de controle overneemt."
+				"nl": "Dit kaartje stelt de temperatuur in voor deze zone totdat het Slimme Schema verandert en de controle overneemt.",
+				"de": "Diese Karte setzt die Temperatur für diese Zone, bis sich der intelligente Zeitplan ändert und die Kontrolle übernimmt."
 			},
 			"$filter": "capabilities=heating_only",
 			"args": [
@@ -1138,7 +1284,8 @@
 					"name": "temperature",
 					"placeholder": {
 						"en": "Temperature",
-						"nl": "Temperatuur"
+						"nl": "Temperatuur",
+						"de": "Temperatur"
 					}
 				}
 			]
@@ -1147,11 +1294,13 @@
 			"id": "temperature_airco_until_smart",
 			"title": {
 				"en": "Temperature until Smart Schedule changes",
-				"nl": "Temperatuur tot het Slimme Schema verandert"
+				"nl": "Temperatuur tot het Slimme Schema verandert",
+				"de": "Temperatur, bis intelligenter Zeitplan sich ändert"
 			},
 			"hint": {
 				"en": "This card sets the temperature for this zone until Smart Schedule changes and takes control.",
-				"nl": "Dit kaartje stelt de temperatuur in voor deze zone totdat het Slimme Schema verandert en de controle overneemt."
+				"nl": "Dit kaartje stelt de temperatuur in voor deze zone totdat het Slimme Schema verandert en de controle overneemt.",
+				"de": "Diese Karte setzt die Temperatur für diese Zone, bis sich der intelligente Zeitplan ändert und die Kontrolle übernimmt."
 			},
 			"$filter": "capabilities=airco_mode",
 			"args": [
@@ -1160,7 +1309,8 @@
 					"name": "airco_mode",
 					"placeholder": {
 						"en": "Mode",
-						"nl": "Modus"
+						"nl": "Modus",
+						"de": "Modus"
 					}
 				},
 				{
@@ -1168,7 +1318,8 @@
 					"name": "temperature",
 					"placeholder": {
 						"en": "Temperature",
-						"nl": "Temperatuur"
+						"nl": "Temperatuur",
+						"de": "Temperatur"
 					}
 				}
 			]
@@ -1177,11 +1328,13 @@
 			"id": "set_on_until_smart",
 			"title": {
 				"en": "Zone enabled until Smart Schedule changes",
-				"nl": "Zone ingeschakeld tot het Slimme Schema verandert"
+				"nl": "Zone ingeschakeld tot het Slimme Schema verandert",
+				"de": "Zone aktiviert, bis intelligenter Zeitplan sich ändert"
 			},
 			"hint": {
 				"en": "This card enables this zone until Smart Schedule changes and takes control.",
-				"nl": "Dit kaartje schakelt deze zone in totdat het Slimme Schema verandert en de controle overneemt."
+				"nl": "Dit kaartje schakelt deze zone in totdat het Slimme Schema verandert en de controle overneemt.",
+				"de": "Diese Karte aktiviert diese Zone, bis sich der intelligente Zeitplan ändert und die Kontrolle übernimmt."
 			},
 			"$filter": "capabilities=target_onoff"
 		},
@@ -1189,11 +1342,13 @@
 			"id": "set_off",
 			"title": {
 				"en": "Disable the zone",
-				"nl": "Schakel de zone uit"
+				"nl": "Schakel de zone uit",
+				"de": "Die Zone deaktivieren"
 			},
 			"hint": {
 				"en": "This card disables this zone until the user or another flow card intervenes.",
-				"nl": "Dit kaartje schakelt deze zone uit totdat de gebruiker of een ander flow kaartje ingrijpt."
+				"nl": "Dit kaartje schakelt deze zone uit totdat de gebruiker of een ander flow kaartje ingrijpt.",
+				"de": "Diese Karte deaktiviert die Zone, bis ein Benutzer oder eine andere Flow-Karte interveniert."
 			},
 			"$filter": "capabilities=smart_heating"
 		},
@@ -1201,11 +1356,13 @@
 			"id": "set_off_until_timer",
 			"title": {
 				"en": "Disable zone until time expires",
-				"nl": "Schakel zone uit tot de tijd afloopt"
+				"nl": "Schakel zone uit tot de tijd afloopt",
+				"de": "Zone deaktivieren, bis Zeit abläuft"
 			},
 			"hint": {
 				"en": "This card disables this zone until the set time expires and Smart Schedule takes control.",
-				"nl": "Dit kaartje schakelt deze zone uit totdat de ingestelde tijd afloopt en het Slimme Schema de controle overneemt."
+				"nl": "Dit kaartje schakelt deze zone uit totdat de ingestelde tijd afloopt en het Slimme Schema de controle overneemt.",
+				"de": "Diese Karte deaktiviert diese Zone, bis die festgelegte Zeit abläuft und der intelligente Zeitplan die Kontrolle übernimmt."
 			},
 			"$filter": "capabilities=smart_heating",
 			"args": [
@@ -1214,7 +1371,8 @@
 					"type": "time",
 					"placeholder": {
 						"en": "Smart Schedule after...",
-						"nl": "Slim Schema na..."
+						"nl": "Slim Schema na...",
+						"de": "Intelligenter Zeitplan nach..."
 					}
 				}
 			]
@@ -1223,11 +1381,13 @@
 			"id": "set_off_until_smart",
 			"title": {
 				"en": "Disable zone until Smart Schedule changes",
-				"nl": "Schakel zone uit tot het Slimme Schema verandert"
+				"nl": "Schakel zone uit tot het Slimme Schema verandert",
+				"de": "Zone deaktivieren, bis intelligenter Zeitplan sich ändert"
 			},
 			"hint": {
 				"en": "This card disables this zone until Smart Schedule changes and takes control.",
-				"nl": "Dit kaartje schakelt deze zone uit totdat het Slimme Schema verandert en de controle overneemt."
+				"nl": "Dit kaartje schakelt deze zone uit totdat het Slimme Schema verandert en de controle overneemt.",
+				"de": "Diese Karte deaktiviert diese Zone, bis sich der intelligente Zeitplan ändert und die Kontrolle übernimmt."
 			},
 			"$filter": "capabilities=smart_heating"
 		},
@@ -1235,11 +1395,13 @@
 			"id": "set_smart",
 			"title": {
 				"en": "Activate Smart Schedule",
-				"nl": "Activeer het Slimme Schema"
+				"nl": "Activeer het Slimme Schema",
+				"de": "Intelligenten Zeitplan aktivieren"
 			},
 			"hint": {
 				"en": "This card activates the Smart Schedule.",
-				"nl": "Dit kaartje activeert het Slimme Schema."
+				"nl": "Dit kaartje activeert het Slimme Schema.",
+				"de": "Diese Karte aktiviert den intelligenten Zeitplan."
 			},
 			"$filter": "capabilities=smart_heating"
 		}

@@ -2,7 +2,8 @@
 	"type": "boolean",
 	"title": {
 		"en": "Home / Away",
-		"nl": "Thuis / Afwezig"
+		"nl": "Thuis / Afwezig",
+		"de": "Zuhause / Weg"
 	},
 	"getable": true,
 	"setable": true
